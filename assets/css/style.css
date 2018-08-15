@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(214, 214, 214);
+}
+.inside-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Topic Butoons */
+.topicButton {
+    margin: 3px;
+}
+
+/* Form */
+#topic-input {
+}
+#add-topic {
+}
+
+/* Gifs */
+#gifHolder {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+.gifBox {
+    display: block;
+}
+.gifItem {
+    height: 200px;
+    margin: 10px 10px;
+}
+.gifText {
+    margin: 0 10px;
+}

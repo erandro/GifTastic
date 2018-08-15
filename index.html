@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HW6</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <!-- Css -->
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="row inside-container">
+            <h2>Press topic buttons to see some Gifs</h2>
+        </div>
+        <div class="row inside-container">
+            <div id="buttonsHolder">
+            </div>
+        </div>
+
+        <br>
+        <div class="row inside-container">
+            <h5>You can add more topics here</h5>
+        </div>
+        <div class="row inside-container">
+
+            <form>
+                <label for="topic-input">Write new topic here:</label>
+                <input type="text" id="topic-input">
+                <input id="add-topic" type="submit" value="Press to add">
+            </form>
+        </div>
+
+        <br>
+
+        <div class="row inside-container">
+            <div class="card">
+                <div class="card-header text-center">
+                    <h5>Press the Gifs to play / stop animation</h5>
+                </div>
+                <div id="gifHolder">
+                    <div>
+                        <img src="assets\images\orca1.jpg" data-animation="https://i.gifer.com/75aj.gif" data-still="assets\images\orca1.jpg" data-state="still"
+                            class="gifItem">
+                        <p class="gifText">Example 1</p>
+                    </div>
+                    <div>
+                        <img src="assets\images\orca2.jpg" data-animation="https://cdn.dribbble.com/users/280033/screenshots/2087267/orcaloop3c.gif"
+                            data-still="assets\images\orca2.jpg" data-state="still" class="gifItem">
+                        <p class="gifText">Example 2</p>
+                    </div>
+                    <div>
+                        <img src="assets\images\orca3.jpg" data-animation="https://steamusercontent-a.akamaihd.net/ugc/851599003197619423/1466DBFAA8035F7403A3CC40118C7083D68414DA/"
+                            data-still="assets\images\orca3.jpg" data-state="still" class="gifItem">
+                        <p class="gifText">Example 3</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JQuery -->
+    <script src='https://code.jquery.com/jquery-3.3.1.min.js' integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8='
+        crossorigin='anonymous'></script>
+    <!-- javascript -->
+    <script src="./assets/javascript/javascript.js"></script>
+</body>
+
+</html>
