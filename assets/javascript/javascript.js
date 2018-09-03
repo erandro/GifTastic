@@ -1,4 +1,4 @@
-var queryURL = "https://api.giphy.com/v1/gifs/trending?api_key=ADD-YOUR-KEY-HERE";
+var queryURL = "https://api.giphy.com/v1/gifs/trending?api_key=94ios1WyJGMuPxT20oUQsWR1BFUCqS2m";
 
 $.ajax({
     url: queryURL,
@@ -28,7 +28,7 @@ $("#add-topic").on("click", function (event) {
 function displayGifs() {
     var topic = $(this).attr("data-name");
 
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + topic + "&api_key=ADD-YOUR-KEY-HERE";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + topic + "&api_key=94ios1WyJGMuPxT20oUQsWR1BFUCqS2m";
     $.ajax({
         url: queryURL,
         method: "GET"
