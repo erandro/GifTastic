@@ -1,7 +1,7 @@
 # GifTastic
 
 ### Overview
-This project is a webpage that show-case Gifs by topics uppon user desire.
+This project is a webpage that show-case Gifs by topics upon user desire.
 
 ### How does it work?
 On the top of the page, there are multiple default topics. the user can choose to click on those or add more topics of his liken.
